@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title>Deseo | Products</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- =========================HEADER========================= --> 
+    <section class="header_menu" id="header_menu">     
+        <div class="container-fluid px-0 shadow">       
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand pl-5" href="../index.html">
+                  <img src="images/logo.png" style="width: 130px; height: auto;" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav menu mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="category.html">Category</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact us</a>
+                    </li> 
+                </ul>
+                  <div class="search mr-3">             
+                      <a href="search.html" class="btn btn-sm btn-outline-danger px-5 py-2"> Search</a>           
+                  </div>           
+                  <div class="cart pr-3">             
+                      <a href="cart.html">               
+                          <i class="fa fa-shopping-cart fa-3x" style="color:deeppink;"></i>               
+                          <span class="badge badge-pill badge-primary p-2" style="background-color:deeppink;">24</span>             
+                      </a>           
+                  </div>   
+              </div>
+          </nav>
+      </div>
+  </section>
+  <!--============================PRODUCT SECTION=================-->
+  <section class="products-list mb-5">
+    <div class="container">
+      <div>
+        <h1 class="text-center py-5 border-bottom" style="color: rgba(218,61,61,1);">PRODUCTS</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-5 border-right">
+          <h2 class="border-bottom">Filters</h2>
+          <div class="card mb-5 filter">
+            <div class="card-header">
+              Category
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Size</li>
+              <li class="list-group-item">Brand</li>
+              <li class="list-group-item">Type</li>
+              <li class="list-group-item">Rating</li>
+              <li class="list-group-item">Color</li>
+            </ul>
+          </div>
+          <div>
+            <form>                             
+              <div class="form-group">                                        <label><b>Price</b></label>                                 
+                <input type="range" min="100" max="1000" step="100" class="form-control-range">                             
+              </div>                         
+            </form>                         
+            <div class="d-flex justify-content-between">                            <label>₹100</label>                             
+              <label>₹1000</label>                         
+            </div>   
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-7">
+          <div class="row row-cols-1 row-cols-lg-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/products/top1.png" class="card-img-top" alt="...">
+                <span class="badge badge-pill badge-danger new-product px-3 py-2">New</span>
+                <div class="card-body">
+                  <div class="product-rating text-center">                 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>             
+                  </div> 
+                  <h4 class="text-center"><a href="product_details.html">MANGO</a></h4>
+                  <p class="text-center"><span class="mr-2"><b>₹1,019</b></span>  <span style="text-decoration: line-through" class="mr-2">₹1,699</span><span style="color: rgba(251,32,86,1);">(40% OFF)</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/products/top2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="product-rating text-center">                 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>             
+                  </div>   
+                  <h4 class="text-center"><a href="product_details.html">LEVIS</a></h4>
+                  <p class="text-center"><span class="mr-2"><b>₹805</b></span>  <span style="text-decoration: line-through" class="mr-2">₹1,790</span><span style="color: rgba(251,32,86,1);">(55% OFF)</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/products/top10.webp" class="card-img-top" alt="...">
+                <span class="badge badge-pill badge-danger new-product px-3 py-2">New</span>
+                <div class="card-body">
+                  <div class="product-rating text-center">                 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>          
+                  </div>   
+                  <h4 class="text-center"><a href="product_details.html">VERO MODA</a></h4>
+                  <p class="text-center"><span class="mr-2"><b>₹1,794</b></span>  <span style="text-decoration: line-through" class="mr-2">₹2,990</span><span style="color: rgba(251,32,86,1);">(40% OFF)</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/products/top11.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="product-rating text-center">                 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>            
+                  </div>   
+                  <h4 class="text-center"><a href="product_details.html">MADAME</a></h4>
+                  <p class="text-center"><span class="mr-2"><b>₹1,495</b></span>  <span style="text-decoration: line-through" class="mr-2">₹2,990</span><span style="color: rgba(251,32,86,1);">(50% OFF)</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/products/top8.jpg" class="card-img-top" alt="...">
+                <span class="badge badge-pill badge-danger new-product px-3 py-2">New</span>
+                <div class="card-body">
+                  <div class="product-rating text-center">                 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>             
+                  </div>   
+                  <h4 class="text-center"><a href="product_details.html">TOKYO TALKIES</a></h4>
+                  <p class="text-center"><span class="mr-2"><b>₹1,424</b></span>  <span style="text-decoration: line-through" class="mr-2">₹2,590</span><span style="color: rgba(251,32,86,1);">(45% OFF)</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/products/top9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="product-rating text-center">                 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>              
+                  </div>   
+                  <h4 class="text-center"><a href="product_details.html">ONLY</a></h4>
+                  <p class="text-center"><span class="mr-2"><b>₹956</b></span>  <span style="text-decoration: line-through" class="mr-2">₹2,360</span><span style="color: rgba(251,32,86,1);">(60% OFF)</span></p>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--============================FOOTER============================-->
+  <section class="footer my-5">
+    <div class="container-fluid border-top">
+      <div class="row my-5">
+        <div class="col-lg-3 col-md-6 px-4 my-3">
+          <div class="card">
+            <img class="card-img-top ml-5" src="images/logo.png" style="width: 200px; height: auto;" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusamus?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+          <div class="card">
+            <div class="card-header">
+              QUICK LINKS
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="about.html">About</a></li>
+              <li class="list-group-item"><a href="">Offers and Discounts</a></li>
+              <li class="list-group-item"><a href="">Get Coupon</a></li>
+              <li class="list-group-item"><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+          <div class="card">
+            <div class="card-header">
+              NEW PRODUCTS
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="product.html">Women's Fashion</a></li>
+              <li class="list-group-item"><a href="category.html">Women's Accessories</a></li>
+              <li class="list-group-item"><a href="product.html">Girl's clothing</a></li>
+              <li class="list-group-item"><a href="category.html">Jewelery</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+          <div class="card">
+            <div class="card-header">
+              SUPPORT
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="">Frequently asked questions</a></li>
+              <li class="list-group-item"><a href="">Terms and conditions</a></li>
+              <li class="list-group-item"><a href="">Privacy Policies</a></li>
+              <li class="list-group-item"><a href="contact.html">Report an issue</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="backtop">     
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">       
+          <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>     
+        </a>   
+      </div> 
+    </div>
+    <div class="border-top">         
+      <h6 class="text-center mt-3">Copyright ©2020 All rights reserved</h6>       
+    </div> 
+  </section>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+</body>
+</html>

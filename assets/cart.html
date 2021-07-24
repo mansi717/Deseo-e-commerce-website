@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Deseo | Cart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- =========================HEADER========================= --> 
+    <section class="header_menu" id="header_menu">     
+        <div class="container-fluid px-0 shadow">       
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand pl-5" href="../index.html">
+                  <img src="images/logo.png" style="width: 130px; height: auto;" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav menu mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="category.html">Category</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact us</a>
+                    </li> 
+                </ul>
+                  <div class="search mr-3">             
+                      <a href="search.html" class="btn btn-sm btn-outline-danger px-5 py-2"> Search</a>           
+                  </div>           
+                  <div class="cart pr-3">             
+                      <a href="cart.html">               
+                          <i class="fa fa-shopping-cart fa-3x" style="color:deeppink;"></i>               
+                          <span class="badge badge-pill badge-primary p-2" style="background-color:deeppink;">24</span>             
+                      </a>           
+                  </div>   
+              </div>
+          </nav>
+      </div>
+    </section>
+    <section class="cart">
+        <div class="container my-5 text-white">
+            <div class="title text-center border-bottom">
+                <h1 Style="color: rgba(218,61,61,1); font-weight: bold;">CART</h1>
+            </div>
+            <div class="row my-2" style="background-image: radial-gradient( circle farthest-corner at 47.4% 55%,  rgba(218,61,61,1) 0%, rgba(170,13,71,0.81) 90% );">
+                <div class="col-md-8 border-right pb-5">
+                    <div class="py-3">
+                        <h3>Cart (2 items)</h3>
+                    </div>
+                    <div class="row border-bottom pb-4">
+                        <div class="col-lg-3 col-md-5 ">
+                            <div class="card bg-light text-white">
+                                <img src="images/products/top9.jpg" class="card-img" alt="...">
+                              </div>
+                        </div>
+                        <div class="col-lg-4 col-md-7">
+                            <h5 class="pb-3">ONLY Top</h5>
+                            <p>Top - Floral top</p>
+                            <p>Color - Deep pink</p>
+                            <p>Size - M</p>
+                            <div>
+                                <a href="javascript:;" type="button" class="text-uppercase mr-3 mb-5 text-white"><i class="fa fa-trash mr-2" aria-hidden="true"></i>Remove item</a>
+                            </div> 
+                        </div>
+                        <div class="col-lg-5">
+                            <button 
+ 
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"                                                         class="btn btn-sm btn-outline-light">                                                         <i class="fa fa-minus" aria-hidden="true"></i></i>                                                     </button>                                                     <input class="quantity text-center w-75" min="0" max="10" name="quantity"                                                         value="1" type="number">                                                     <button 
+                             
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"                                                         class="btn btn-sm btn-outline-light">                                                         <i class="fa fa-plus" aria-hidden="true"></i></i>                                                     </button>
+                            <div class="price" style="margin-top:130px;">
+                                <p class="text-center"><span class="mr-2"><b>₹1,019</b></span>  <span style="text-decoration: line-through" class="mr-2">₹1,699</span><span>(40% OFF)</span></p>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-lg-3 col-md-5 ">
+                            <div class="card bg-light text-white">
+                                <img src="images/products/top10.webp" class="card-img" alt="...">
+                              </div>
+                        </div>
+                        <div class="col-lg-4 col-md-7">
+                            <h5 class="pb-3">VERO MODA</h5>
+                            <p>Top - Sweatshirt</p>
+                            <p>Color - Black</p>
+                            <p>Size - M</p>
+                            <div>
+                                <a href="javascript:;" type="button" class="text-uppercase mr-3 mb-5 text-white"><i class="fa fa-trash mr-2" aria-hidden="true"></i>Remove item</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <button 
+ 
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"                                                         class="btn btn-sm btn-outline-light">                                                         <i class="fa fa-minus" aria-hidden="true"></i></i>                                                     </button>                                                     <input class="quantity text-center w-75" min="0" max="10" name="quantity"                                                         value="1" type="number">                                                     <button 
+                             
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"                                                         class="btn btn-sm btn-outline-light">                                                         <i class="fa fa-plus" aria-hidden="true"></i></i>                                                     </button> 
+                            <div class="price" style="margin-top:130px;">
+                                <p class="text-center"><span class="mr-2"><b>₹1,794</b></span>  <span style="text-decoration: line-through" class="mr-2">₹2,990</span><span>(40% OFF)</span></p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="py-3">
+                        <h3>Order Summary</h3>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item" style="background-image: radial-gradient( circle farthest-corner at 47.4% 55%,  rgba(218,61,61,1) 0%, rgba(170,13,71,0.81) 90% );
+                        ">Only top <span style="margin: 0 80px;">x1</span> <span>₹1,019</span></li>
+                        <li class="list-group-item" style="background-image: radial-gradient( circle farthest-corner at 47.4% 55%,  rgba(218,61,61,1) 0%, rgba(170,13,71,0.81) 90% );
+                        ">VeroModa <span style="margin: 0 74px;">x1</span> <span>₹1,794</span></li>
+                        <li class="list-group-item" style="background-image: radial-gradient( circle farthest-corner at 47.4% 55%,  rgba(218,61,61,1) 0%, rgba(170,13,71,0.81) 90% );
+                        ">Total Amount <span style="margin-left: 150px;">₹2,813</span></li>
+                      </ul>
+                      <div class="text-center">
+                          <a href="checkout.html" class="btn btn-light my-4" style="padding: 8px 105px;"><b>Go to Checkout</b></a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--============================FOOTER============================-->
+  <section class="footer my-5">
+    <div class="container-fluid border-top">
+      <div class="row my-5">
+        <div class="col-lg-3 col-md-6 px-4 my-4">
+          <div class="card">
+            <img class="card-img-top ml-5" src="images/logo.png" style="width: 200px; height: auto;" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusamus?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+          <div class="card">
+            <div class="card-header">
+              QUICK LINKS
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="about.html">About</a></li>
+              <li class="list-group-item"><a href="">Offers and Discounts</a></li>
+              <li class="list-group-item"><a href="">Get Coupon</a></li>
+              <li class="list-group-item"><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+          <div class="card">
+            <div class="card-header">
+              NEW PRODUCTS
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="product.html">Women's Fashion</a></li>
+              <li class="list-group-item"><a href="category.html">Women's Accessories</a></li>
+              <li class="list-group-item"><a href="product.html">Girl's clothing</a></li>
+              <li class="list-group-item"><a href="category.html">Jewelery</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+          <div class="card">
+            <div class="card-header">
+              SUPPORT
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="">Frequently asked questions</a></li>
+              <li class="list-group-item"><a href="">Terms and conditions</a></li>
+              <li class="list-group-item"><a href="">Privacy Policies</a></li>
+              <li class="list-group-item"><a href="contact.html">Report an issue</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="backtop">     
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">       
+          <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>     
+        </a>   
+      </div> 
+    </div>
+    <div class="border-top">         
+      <h6 class="text-center mt-3">Copyright ©2020 All rights reserved</h6>       
+    </div> 
+  </section>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+</body>
+</html>
